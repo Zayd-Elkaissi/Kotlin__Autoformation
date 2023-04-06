@@ -47,7 +47,7 @@ class TitleFragment : Fragment() {
         setHasOptionsMenu(true)
         return binding.root
     }
-
+    // Add menu
     override fun onCreateOptionsMenu(menu: Menu, inflater: MenuInflater) {
         super.onCreateOptionsMenu(menu, inflater)
         inflater.inflate(R.menu.options_menu, menu)
